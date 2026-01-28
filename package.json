@@ -1,6 +1,6 @@
 {
-  "name": "@leviackerman/shared",
-  "version": "1.0.0",
+  "name": "@leviackerman094340/shared",
+  "version": "1.0.1",
   "description": "Shared utilities for just and just-admin projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,6 +26,9 @@
     "type": "git",
     "url": "https://github.com/leviackerman094340/shared.git"
   },
+  "keywords": ["utilities", "currency", "pricing"],
+  "author": "leviackerman094340 <leviackerman094340@proton.me>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.0.10",
     "typescript": "^5.9.3"
