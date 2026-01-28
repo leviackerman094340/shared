@@ -399,6 +399,23 @@ export function formatPrice(
   return `$${amountUSD.toFixed(2)} (${symbol}${amount.toFixed(2)})`;
 }
 
+export function formatPriceWithCurrency(
+  usdAmount: number,
+  originalAmount: number,
+  currency: string,
+  currencySymbol?: string
+): string {
+  const symbol = currencySymbol || getCurrencySymbol(currency);
+  const formattedUSD = `$${usdAmount.toFixed(2)}`;
+  const formattedOriginal = `${symbol}${originalAmount.toFixed(2)}`;
+
+  if (currency.toUpperCase() === 'USD') {
+    return formattedUSD;
+  }
+
+  return `${formattedUSD} (${formattedOriginal})`;
+}
+
 export async function prefetchCurrencyRates(): Promise<void> {
   await getCurrencyRates();
 }

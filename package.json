@@ -1,6 +1,6 @@
 {
   "name": "@leviackerman094340/shared",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared utilities for just and just-admin projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
