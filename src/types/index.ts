@@ -64,6 +64,11 @@ export interface IService {
   annualOnly?: boolean;
   percentageOnly?: boolean;
   regionalPrices?: IRegionalPrice[];
+  // Computed fields (maintained by just frontend)
+  cheapestCountry?: string;
+  cheapestPrice?: number;
+  homeCountryPrice?: number;
+  priceDelta?: number;
   createdAt?: Date;
   updatedAt?: Date;
 }
