@@ -54,3 +54,10 @@ export {
   getServiceBadge,
   type ServiceBadge,
 } from "./utils/service-badge";
+
+// Highlight Countries
+export {
+  highlightCountries,
+  type HighlightCountry,
+  isHighlightCountry,
+} from "./utils/highlight-countries";
