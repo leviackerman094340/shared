@@ -48,3 +48,9 @@ export {
   getCountryFlag,
   getAllFlags,
 } from "./utils/country-flags";
+
+// Service Badge
+export {
+  getServiceBadge,
+  type ServiceBadge,
+} from "./utils/service-badge";
